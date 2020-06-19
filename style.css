@@ -1,4 +1,39 @@
 
+.container-5 {
+    border: 1px solid #000;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    display: flex;
+    border: 1px solid #000;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1  {
+    background: url(images/bigstock-poker-table-background-26587844-2-1-300x199.jpg);
+    color: #fff;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid #000;
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
 .btn {
     padding: 10px 20px;
     border-radius: 10px;
