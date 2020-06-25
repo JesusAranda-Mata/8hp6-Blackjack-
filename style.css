@@ -7,7 +7,7 @@
     align-content: center;
 }
 
-.flex-blackjack-row-1, .flex-blackjack-row-2 {
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
     display: flex;
     border: 1px solid #000;
     padding: 10px;
@@ -16,8 +16,8 @@
     justify-content: space-around;
 }
 
-.flex-blackjack-row-1  {
-    background: url(images/bigstock-poker-table-background-26587844-2-1-300x199.jpg);
+.flex-blackjack-row-1, .flex-blackjack-row-2  {
+    background: url(allImages/background/21background.jpg);
     color: #fff;
 }
 
@@ -31,6 +31,16 @@
 
 .flex-blackjack-row-1 img {
     width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div {
+    border: 1px solid black;
     padding: 10px;
 }
 
@@ -55,6 +65,11 @@
     background: orange;
 }
 
-table {
+table, th, td {
+    padding:  5px;
     border: 1px solid #000;
+    
+}
+#backjack-hit {
+    
 }
